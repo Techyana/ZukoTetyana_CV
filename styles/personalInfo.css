@@ -49,20 +49,20 @@ body {
 }
 
 .container .header .header-items img {
-  max-width: 80%;
+  max-width: 60%;
   border-radius: 50%;
   border: solid .2rem white;
 }
 
 .container .header .header-items .name {
   width: 100%;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center;
 }
 
 .container .header .header-items .job-title {
   width: 100%;
-  font-size: .7rem;
+  font-size: .5rem;
   padding-left: .5rem;
 }
 
@@ -92,14 +92,14 @@ body {
 }
 
 .container .link-buttons .top-title li {
-  padding: 0 1.5rem;
+  padding: 0.5rem .5rem;
 }
 
 .container .link-buttons .top-title li .back {
   background: #1798ca;
   border-radius: .5rem;
   max-width: 15%;
-  padding: .8rem 1rem;
+  padding: .4rem 1rem;
 }
 
 .container .link-buttons .info-box {
@@ -110,11 +110,35 @@ body {
   background: rgba(255, 255, 255, 0.3);
 }
 
+.container .link-buttons .info-box .qualifications {
+  text-align: center;
+}
+
+.container .link-buttons .info-box .qualifications li {
+  padding: 0.5rem .5rem;
+}
+
+.container .link-buttons .info-box .qualifications li .pdf-file {
+  background: #1798ca;
+  border-radius: .5rem;
+  max-width: 15%;
+  padding: .4rem 1rem;
+}
+
 .container .link-buttons .info-box .text-scroll {
   text-align: justify;
 }
 
+.container .link-buttons .info-box .text-scroll .links {
+  color: blue;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+}
+
 .container .link-buttons .info-box .text-scroll .archievements {
+  padding-left: .6rem;
   color: blue;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;

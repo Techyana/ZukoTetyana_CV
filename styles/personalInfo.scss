@@ -35,18 +35,18 @@ body {
                 text-align: center;
             }
             img {
-                max-width: 80%;
+                max-width: 60%;
                 border-radius: 50%;
                 border: solid .2rem white;
             }
             .name {
                 width: 100%;
-                font-size: 1.6rem;
+                font-size: 1.4rem;
                 text-align: center;
             }
             .job-title {
                 width: 100%;
-                font-size: .7rem;
+                font-size: .5rem;
                 padding-left: .5rem;
             }
         }
@@ -71,14 +71,13 @@ body {
             background: rgb(255, 255, 255);
         
         li {
-            padding: 0 1.5rem;
+            padding: 0.5rem .5rem;
 
             .back {
-                
                 background: rgb(23, 152, 202);
                 border-radius: .5rem;
                 max-width: 15%;
-                padding: .8rem 1rem;
+                padding: .4rem 1rem;
             }
         }
     }
@@ -89,22 +88,37 @@ body {
         border-radius: 15px;
         max-width: 100%;
         background: rgba(255, 255, 255, 0.3);
+        .qualifications {
+            text-align: center;
+            li {
+                padding: 0.5rem .5rem;
+            .pdf-file {
+                background: rgb(23, 152, 202);
+                border-radius: .5rem;
+                max-width: 15%;
+                padding: .4rem 1rem;
+                    }
+                }
+        }
         .text-scroll {
             text-align: justify;
 
-            .archievements {
+            .links {
                 color: blue;
                 text-decoration-line: underline;
                 text-decoration-style: solid;
-                
+            }
+            
+            .archievements {
+                padding-left: .6rem;
+                color: blue;
+                text-decoration-line: underline;
+                text-decoration-style: solid;    
             }
         }
 
     .text {
         text-align: justify;
-
-        
-        
     }
 
     
