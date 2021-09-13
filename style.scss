@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+    font-family: 'Neucha', cursive;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    overflow: hidden;
+    color: black;
+}
+
+body {
+    background: linear-gradient(180deg,  rgba(42, 40, 43, 0.815) 40%, rgba(255, 255, 255, 0.45) 85%);
+}
+
+.container {
+    height: 100vh;
+    max-width: 100%;
+
+    .header {
+        max-width: 100%;
+        padding: 10px;
+        background: linear-gradient(45deg,  rgba(42, 40, 43, 0.815) 5%, rgb(255, 255, 255) 85%);
+        border-bottom: .2rem solid aliceblue;
+        text-align: center;  
+        .header-items {
+            display:inline-flex;
+            max-width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            .profile-pic {
+                text-align: center;
+            }
+            img {
+                max-width: 60%;
+                border-radius: 50%;
+                border: solid .2rem white;
+            }
+            .name {
+                width: 100%;
+                font-size: 1.4rem;
+                text-align: center;
+            }
+            .job-title {
+                width: 100%;
+                font-size: .5rem;
+                padding-left: .5rem;
+            }
+        }
+    }
+
+    /*link-buttons*/
+    .link-buttons {
+        margin: 1.6rem;
+        padding: 1rem;
+        border-radius: 15px;
+        max-width: 100%;
+        background: rgba(255, 255, 255, 0.3);
+        text-align: center;
+    ul {
+        padding: 0px .001rem;
+        li {
+            padding: 1rem 0;
+            margin: .2rem 0;
+            text-align: center;
+            border-radius: 5px;
+            background: rgb(255, 255, 255);
+            a {
+                width: 100%;
+                padding: 0 1rem;
+            }
+        }
+    }
+
+    .btnDownloadCV {
+                margin-top: .3rem;
+                background: rgb(23, 152, 202);
+                border-radius: .4rem;
+                max-width: 100%;
+                padding: 6px 5px;
+                border: none;
+    }
+    }
+
+    .socials {
+        width: 100%;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            align-items: center;
+            font-size: 2rem;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: 300;
+            margin-top: 0px;
+            margin-right: 20px;
+
+            i {
+                color: rgb(122, 114, 114);
+            }
+        }
+    }
+
+    footer {
+        position: absolute;
+        top: 94.7%;
+        background: rgb(42, 40, 42);
+        color: rgb(133, 125, 125);
+        width: 100%;
+        padding: 8px 15px;
+        text-align: center;
+        font-size: 1rem;
+
+        .leadFooter {
+            color: grey;
+        }
+
+        .home-arrow {
+            margin-left: 20px;
+            color: rgb(45, 65, 252);
+        }
+    }
+    
+        
+}

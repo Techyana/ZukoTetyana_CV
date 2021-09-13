@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+* {
+  font-family: 'Neucha', cursive;
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  overflow: hidden;
+  color: black;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, rgba(42, 40, 43, 0.815)), color-stop(85%, rgba(255, 255, 255, 0.45)));
+  background: linear-gradient(180deg, rgba(42, 40, 43, 0.815) 40%, rgba(255, 255, 255, 0.45) 85%);
+}
+
+.container {
+  height: 100vh;
+  max-width: 100%;
+  /*link-buttons*/
+}
+
+.container .header {
+  max-width: 100%;
+  padding: 10px;
+  background: linear-gradient(45deg, rgba(42, 40, 43, 0.815) 5%, white 85%);
+  border-bottom: .2rem solid aliceblue;
+  text-align: center;
+}
+
+.container .header .header-items {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .header .header-items .profile-pic {
+  text-align: center;
+}
+
+.container .header .header-items img {
+  max-width: 60%;
+  border-radius: 50%;
+  border: solid .2rem white;
+}
+
+.container .header .header-items .name {
+  width: 100%;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.container .header .header-items .job-title {
+  width: 100%;
+  font-size: .5rem;
+  padding-left: .5rem;
+}
+
+.container .link-buttons {
+  margin: 1.6rem;
+  padding: 1rem;
+  border-radius: 15px;
+  max-width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+.container .link-buttons ul {
+  padding: 0px .001rem;
+}
+
+.container .link-buttons ul li {
+  padding: 1rem 0;
+  margin: .2rem 0;
+  text-align: center;
+  border-radius: 5px;
+  background: white;
+}
+
+.container .link-buttons ul li a {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.container .link-buttons .btnDownloadCV {
+  margin-top: .3rem;
+  background: #1798ca;
+  border-radius: .4rem;
+  max-width: 100%;
+  padding: 6px 5px;
+  border: none;
+}
+
+.container .socials {
+  width: 100%;
+  text-align: center;
+}
+
+.container .socials a {
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+.container .socials a i {
+  color: #7a7272;
+}
+
+.container footer {
+  position: absolute;
+  top: 94.7%;
+  background: #2a282a;
+  color: #857d7d;
+  width: 100%;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.container footer .leadFooter {
+  color: grey;
+}
+
+.container footer .home-arrow {
+  margin-left: 20px;
+  color: #2d41fc;
+}
+/*# sourceMappingURL=style.css.map */
