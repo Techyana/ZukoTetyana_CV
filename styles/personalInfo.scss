@@ -33,7 +33,9 @@ body {
             align-items: center;
             .profile-pic {
                 text-align: center;
-                padding: 0 .2rem;
+                .mail {
+                    font-size: .6rem;
+                }
             }
             img {
                 max-width: 60%;
