@@ -48,6 +48,10 @@ body {
   text-align: center;
 }
 
+.container .header .header-items .profile-pic .mail {
+  font-size: .6rem;
+}
+
 .container .header .header-items img {
   max-width: 60%;
   border-radius: 50%;
@@ -138,7 +142,7 @@ body {
 }
 
 .container .link-buttons .info-box .text-scroll .archievements {
-  padding-left: .8rem;
+  padding-left: 1rem;
   color: blue;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
